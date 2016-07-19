@@ -1,0 +1,11 @@
+1. Create the Mailer 
+rails g mailer emailer
+
+2. Define Mailer Function
+def send_mail
+  mail(:to=>"test@example.com", Subject:=>"my first email")
+end
+
+3.Add the content of this email and store in corresponding view folder.
+
+4.It may be plain text or it can have values. 
